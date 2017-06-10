@@ -1,7 +1,7 @@
 <nav class="nav">
     <div class="container">
         <div class="nav-left">
-            <a class="nav-item" href="/">
+            <a class="nav-item" href="{{ '' | relative_url }}/">
                 <span class="icon">
                     <i class="fa fa-home"></i>
                 </span>
@@ -29,7 +29,7 @@
 
         <div class="nav-right nav-menu">
             {% for item in site.data.nav.items %}
-            <a class="nav-item" href="{{item.link}}">
+            <a class="nav-item" href="{{ item.link | relative_url }}">
                 <span>{{item.name}}</span>
             </a>
             {% endfor %}
