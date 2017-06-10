@@ -1,4 +1,4 @@
-#  BlogFolio
+#  Jekyll Theme - BlogFolio
 
 A simple and easy to use blog and portfolio theme for Jekyll
 
