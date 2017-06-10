@@ -9,7 +9,7 @@ A simple and easy to use blog and portfolio theme for Jekyll
 4. Enter url  `localhost:4000/blogfolio/`
 
 ##  Demo
-[https://lamccloskey.github.io/blogfolio/](https://lamccloskey.github.io/blogfolio/)
+[https://lamccloskey.github.io/jekyll-theme-blogfolio/](https://lamccloskey.github.io/jekyll-theme-blogfolio/)
 
 
 ##  Preview
