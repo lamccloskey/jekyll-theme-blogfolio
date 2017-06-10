@@ -1,14 +1,17 @@
 #  BlogFolio
 
-Everything you need to get setup with a blog and portfolio
+A simple and easy to use blog and portfolio theme for Jekyll
 
----
 ##  Install
+1. Clone or download `https://github.com/lamccloskey/jekyll-theme-blogfolio.git`
+2. Enter folder `cd jekyll-theme-blogfolio/`
+3. Start Jekyll Server `jekyll serve`
+4. Enter url  `localhost:4000/blogfolio/`
 
----
 ##  Demo
 [https://lamccloskey.github.io/blogfolio/](https://lamccloskey.github.io/blogfolio/)
----
+
+
 ##  Preview
 ![alt text](blogfolio.gif "Blogfolio")
 
