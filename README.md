@@ -5,13 +5,9 @@ Everything you need to get setup with a blog and portfolio
 ---
 ##  Install
 
-1. Inline `code`
-2. 
-3. 
-
 ---
 ##  Demo
-[https://github.com/lamccloskey/blogfolio/](https://github.com/lamccloskey/blogfolio/)
+[https://lamccloskey.github.io/blogfolio/](https://lamccloskey.github.io/blogfolio/)
 ---
 ##  Preview
 ![alt text](blogfolio.gif "Blogfolio")
