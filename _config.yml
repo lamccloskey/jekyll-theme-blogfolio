@@ -1,0 +1,15 @@
+# Site settings
+name: name
+email: email
+url: url
+description: "A blog and a portfolio"
+author: "author"
+title: "BlogFolio"
+permalink: pretty
+
+# social
+github:
+  username: username
+
+twitter:
+  username: username

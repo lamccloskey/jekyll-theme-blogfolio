@@ -1,0 +1,25 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-half is-offset-one-quarter">
+        <div class="content">
+
+            <figure class="image is-96x96 is-centered">
+                <img class="is-rounded" src="http://via.placeholder.com/128x128">
+            </figure>
+            
+            <hr>
+
+            {% for paragraph in site.data.about.paragraphs %}
+            <p>{{paragraph}}</p>
+            {% endfor %}
+            
+        </div>
+    </div>
+    
+</div>

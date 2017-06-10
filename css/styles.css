@@ -1,0 +1,36 @@
+.footer {
+  background-color: whitesmoke;
+  padding: 3rem 1.5rem 6rem;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Crimson Text", "Georgia", serif;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.is-centered {
+  display: block;
+  margin: 0 auto;
+}
+
+.is-rounded {
+  border-radius: 3%;
+}
+
+.hero.is-primary {
+  background-color: #FF8C69;
+  color: white;
+}

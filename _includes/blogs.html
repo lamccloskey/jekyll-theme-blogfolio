@@ -1,0 +1,24 @@
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+
+                {% for post in site.posts %}
+                <div class="box">
+                    <article class="media">
+                        <div class="media-content">
+                            <div class="content">
+                                <a href="{{post.url}}">
+                                    <p class="title is-2">{{post.title}} <span class="tag is-white is-pulled-right"><small>{{ post.date | date: '%B %d, %Y'}}</small></span></p>
+                                    <p class="subtitle"><small>{{post.excerpt | remove: '<p>' | remove: '</p>'}}</small></p>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</section>
